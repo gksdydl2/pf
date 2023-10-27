@@ -1,0 +1,104 @@
+#portfolio {
+  height: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+#portfolio .wrap {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(3, 3, 3, 0.32);
+  border-radius: 50px;
+  margin-top: 40px;
+  color: #222;
+}
+#portfolio .wrap h2 {   
+  padding: 50px 0;
+}
+#portfolio .wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#portfolio .wrap ul.pflist {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  width: 744px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#portfolio .wrap ul.pflist li {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+#portfolio .wrap ul.pflist li::after {
+  content: "|";
+  color: #ccc;
+  position: absolute;
+  right: -12px;
+  font-size: 16px;
+}
+#portfolio .wrap ul.pflist li:last-child::after {
+  display: none;
+}
+#portfolio .wrap ul.pflist li:hover {
+  background-color: skyblue;
+}
+.click {
+  background-color: skyblue !important;
+}
+#portfolio .wrap ul.view {
+
+}
+#portfolio .wrap ul.view li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 80px;
+}
+#portfolio .wrap ul.view li .text {
+  
+  display: flex;
+  flex-direction: column;
+}
+#portfolio .wrap ul.view li .text h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+#portfolio .wrap ul.view li .text p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#portfolio .wrap ul.view li .text span {  
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 0.6;
+}
+#portfolio .wrap ul.view li .text a {
+  font-size: 18px;
+  background: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 8px 6px;
+  color: #222;
+  width: 140px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio .wrap ul.view li .text a:hover {
+  background-color: #222;
+  color: white;
+}
+#portfolio .wrap ul.view li img {
+  width: 480px;
+  height: 384px;
+}

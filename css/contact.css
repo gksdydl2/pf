@@ -1,0 +1,60 @@
+#contact {
+  padding: 50px 0;
+  height: 736px;
+  box-sizing: border-box;
+  position: relative;
+}
+#contact .wrap {
+
+}
+#contact .wrap h2.h1 {
+  padding: 24px 0;
+}
+#contact .wrap .contents {
+
+}
+#contact .wrap .contents h2 {
+  font-size: 150px;
+  padding-top: 24px;
+}
+#contact .wrap .contents p {
+  background-image: url(../img/tree.png);
+  display: block;
+  width: 254px;
+  height: 266px;
+  position: absolute;
+  bottom: -20px;
+  right: 400px;
+  font-size: 0;
+  z-index: 1;
+}
+#contact .wrap .contents p.dark {
+  background-image: url(../img/light.png);
+  height: 234px;
+  width: 38px;
+  background-size: cover;
+}
+#contact .wrap .contents ul.address {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 55px 0;
+}
+#contact .wrap .contents ul.address li {
+  display: flex;
+  align-items: center;
+}
+#contact .wrap .contents ul.address li img {
+  width: 36px;
+}
+#contact .wrap .contents ul.address li.email span,#contact .wrap .contents ul.address li.kakaotalk span, #contact .wrap .contents ul.address li.instagram span {
+  font-size: 30px;
+  padding-left: 10px;
+}
+#contact .wrap .contents ul.address li.instagram {
+
+}
+#contact .wrap .contents ul.address li.instagram a {
+  display: flex;
+  align-items: center;
+}

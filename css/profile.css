@@ -1,0 +1,159 @@
+/* 프로필 영역 */
+#about {
+  padding-top: 50px;
+  height: 100%;
+  box-sizing: border-box;
+}
+#about .profile {
+  
+}
+#about .profile .wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 50px;
+  background: white;
+  color: #222;
+  /*! padding: 0 40px; */
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(3, 3, 3, 0.32);
+}
+#about .profile .wrap h2{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#about .profile .wrap .pr {
+  display: flex;
+  /*! width: 100%; */
+  justify-content: left;
+}
+#about .profile .wrap .pr img {
+  width: 240px;
+  height: 320px;
+  border-radius: 10px;
+}
+#about .profile .wrap .pr .pr_contents {
+  line-height: 1.6;
+  margin-left: 50px;
+}
+#about .profile .wrap .pr .pr_contents h3 {
+  font-size: 24px;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+}
+#about .profile .wrap .pr .pr_contents h3 span{
+  font-weight: 400;
+  font-size: 20px;
+  color:#999;
+  margin-right: 10px;
+}
+#about .profile .wrap .pr .pr_contents > p { 
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+#about .profile .wrap .pr .pr_contents > p span {
+  font-weight: 400;
+  font-size: 16px;
+   color:#999;
+  margin-right: 10px;
+}
+#about .profile .wrap .pr .pr_contents h4 {
+  font-size: 18px;
+}
+#about .profile .wrap .pr .pr_contents div {  
+  padding-top: 15px;
+}
+#about .profile .wrap .pr .pr_contents div h4 {
+  font-weight: 500;
+}
+#about .profile .wrap .pr .pr_contents div p {
+  line-height: 1.6;
+}
+#about .profile .wrap .pr .pr_contents div p span {  
+  margin-right: 10px;
+}
+#about .skills {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  width: 90%;
+}
+#about .skills .wrap {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 1px 3px 0 rgba(3, 3, 3, 0.32);
+  padding: 0 50px;
+}
+#about .skills .wrap h2 {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-align: right;
+  color: #92999d;
+  text-transform: uppercase;
+  font-size: 38px;
+}
+#about .skills .wrap ul.list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  width: 100%;
+}
+#about .skills .wrap ul.list li {
+  width: 80px;
+  height: 80px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#about .skills .wrap ul.list li.html {
+  background-image: url(../img/html.png);
+}
+#about .skills .wrap ul.list li.css {
+  background-image: url(../img/css.png);
+}
+#about .skills .wrap ul.list li.js {
+  background-image: url(../img/js.png);
+}
+#about .skills .wrap ul.list li.jquery {
+  background-image: url(../img/jquery.png);
+}
+#about .skills .wrap ul.list li.vsc {
+  background-image: url(../img/vsc.png);
+}
+#about .skills .wrap ul.list li.ps {
+  background-image: url(../img/ps.png);
+}
+#about .skills .wrap ul.list li.ai {
+  background-image: url(../img/ai.png);
+}
+#about .skills .wrap ul.list2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+#about .skills .wrap ul.list2 li {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a75ea;
+  border-radius: 100% 0% 60% 40% / 60% 0% 100% 40%;
+  padding: 10px 5px 10px 0;
+  box-sizing: border-box;
+}
+#about .skills .wrap ul.list2 li:nth-child(5) {
+  padding-right: 0;
+  line-height: 1.2;
+}
